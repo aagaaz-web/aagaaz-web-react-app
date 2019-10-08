@@ -1,0 +1,29 @@
+.Team
+{
+    display: flex;
+    flex-direction: column;
+}
+.Team-CoreTeam, .Team-ExTeam
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.Team-CoreTeam-Cards, .Team-ExTeam-Cards
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Media Queries */
+
+
+@media (max-width: 600px)
+{
+    .Team-CoreTeam-Cards, .Team-ExTeam-Cards
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}

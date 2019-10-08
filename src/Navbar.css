@@ -1,0 +1,61 @@
+#Navbar-Main
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: black;
+    color: white;
+    width: 100vw;
+}
+
+
+.Navbar ul li
+{
+    list-style: none;
+}
+
+
+.Navbar-Brand 
+{
+    display: flex;
+
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin-left: 1rem;
+}
+
+
+
+
+.Navbar-Links
+{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+
+.Navbar-Link
+{
+    margin: 0 1rem 0 1rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: white;
+    transition: all 0.35s ease-in-out;
+}
+
+.Navbar-Link:hover
+{
+    background-color: aqua;
+    border-radius: 5px;
+    
+}
+
+.Navbar-Link li
+{
+    margin: 0.5rem;
+}

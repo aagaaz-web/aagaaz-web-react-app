@@ -1,0 +1,13 @@
+.Contact-Address
+{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+
+}
+
+
+.Location, .Map
+{
+    flex: 1;
+}
