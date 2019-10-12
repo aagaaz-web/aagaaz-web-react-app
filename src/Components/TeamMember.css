@@ -1,0 +1,53 @@
+:root
+{
+    --card-background-color: #ebeef8;
+    --card-border-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.TeamMember
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+
+    margin: 1rem;
+
+    border-radius: 2px;
+
+    background: var(--card-background-color);
+
+    box-shadow: 0.5rem 0.5rem 1rem var(--card-border-color);
+    /* box-shadow: 5px 5px 10px 1px var(--card-border-color); */
+
+}
+
+.TeamMember-BackgroundImage
+{
+    height: 50%;
+    width: 100%;
+}
+
+
+.TeamMember h2, h3
+{
+    padding: 0.5rem;
+}
+
+.TeamMember-SocialMedia
+{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 0.5rem; 
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.TeamMember-SocialMedia-Icons-Links
+{
+    margin: 20px 10px 0 10px;
+}
+

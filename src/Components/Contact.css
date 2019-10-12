@@ -1,0 +1,31 @@
+.Contact
+{
+    width: 100%;
+    padding: 1rem;
+}
+
+
+
+.Contact-Address
+{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+
+}
+
+
+.Location, .Map
+{
+    flex: 1;
+}
+
+
+@media (max-width: 600px)
+{
+    .Contact-Address{
+        display: flex;
+        flex-direction: column;
+    }
+
+}

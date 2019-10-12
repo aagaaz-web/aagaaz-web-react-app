@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Nova+Flat&display=swap');
+
+
+:root
+{
+    --brand-font:'Fascinate Inline', cursive;
+    --navbar-font: 'Nova Flat', cursive;
+    --navbar-primary-color: black;
+    --navbar-secondary-color: white;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+
+#Navbar-Main
+{
+    position: sticky;
+    top: 0;
+    background-color: var(--navbar-primary-color);
+    color: var(--navbar-secondary-color);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    z-index: 100;
+    padding: 1rem;
+
+    width: 100vw;
+
+    font-family: var(--navbar-font);
+}
+
+.Navbar-Brand
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-family: var(--brand-font);
+}
+
+.Navbar-Brand a
+{
+    color: var(--navbar-secondary-color);
+}
+
+
+.Navbar-Links
+{
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+
+.Navbar-Link
+{
+    margin: 0 0.25rem;
+    padding: 0.75rem;
+    text-decoration: none;
+    color: var(--navbar-secondary-color);
+    transition: all 0.35s ease-in-out;
+}
+
+
+
+.Navbar-Link:hover
+{
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+}
+
+
+
+@media (max-width: 600px)
+{
+    #Navbar-Main
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Navbar-Brand
+    {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    /* .Navbar-Link
+    {
+        background-color: aqua;
+        border-radius: 5px;
+    } */
+
+}

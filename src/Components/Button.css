@@ -1,0 +1,35 @@
+.Button-General:link, .Button-General:visited
+{
+    margin-top: 1rem;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all 0.5s;
+}
+
+.Button-General:hover
+{
+    transform: translateY(-3px);
+}
+
+.Button-General:active
+{
+    transform: translateY(-1px);
+}
+
+/* .Button-Specific
+{
+    color: #777;
+    background-color: #fff;
+} */
+
+.Button-Specific:hover
+{
+    box-shadow: 1px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.Button-Specific:active
+{
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.2);
+}

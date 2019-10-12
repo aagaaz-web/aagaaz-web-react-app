@@ -13,6 +13,9 @@ class Location extends Component
                 <div className="Location-Address">
                     
                     <h1>BVCOE</h1>
+                    <p>
+                        Bharati Vidyapeeth's College of Engineering,
+                    </p>
                     <p >
                         Rohtak Road, A-4 Block, Paschim Vihar, New Delhi, Delhi 110063
                     </p>

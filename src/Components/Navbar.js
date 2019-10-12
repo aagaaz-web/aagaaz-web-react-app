@@ -7,15 +7,13 @@ class Navbar extends Component
 {
     render() {
         return(
-            <div id="Navbar-Main" className="Navbar">
+            <nav id="Navbar-Main" className="Navbar">
 
-                <div className="Navbar-Brand-Container">
-                    <ul className="Navbar-Brand">
-                        <li>
-                            AAGAAZ
-                        </li>
-                    </ul>
-                </div>
+                <h2 className="Navbar-Brand">
+                        
+                    <a href="#">AAGAAZ</a> 
+
+                </h2>
 
                 <div className="Navbar-Links-Container">
                     <ul className="Navbar-Links">
@@ -23,15 +21,13 @@ class Navbar extends Component
                         <a className="Navbar-Link" href="#Cover-Main"><li>Home</li></a>
                         <a className="Navbar-Link" href="#Cover-Main"><li>About</li></a>
                         <a className="Navbar-Link" href="#Cover-Main"><li>Notice</li></a>
-                        <a className="Navbar-Link" href="#Cover-Main"><li>Contact Us</li></a>
-
-
+                        <a className="Navbar-Link" href="#Cover-Main"><li>Team</li></a>
+                        <a className="Navbar-Link" href="#Cover-Main"><li>Contact</li></a>
                         
                     </ul>
                 </div>
 
-
-            </div>
+            </nav>
 
         );
     }

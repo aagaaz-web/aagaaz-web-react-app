@@ -1,6 +1,6 @@
 .SocialMedia-Icons-Links
 {
-    padding: 1rem;
+    padding: 0.5rem;
     margin: 1rem;
 }
 
@@ -27,4 +27,14 @@
 #Telephone-Icon
 {
     color:green
+}
+
+@media (max-width: 600px)
+{
+    .SocialMedia-Icons-Links
+    {
+        padding: 1rem;
+        margin: 1rem;
+    }
+    
 }

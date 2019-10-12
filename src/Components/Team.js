@@ -22,7 +22,7 @@ class Team extends Component
 
                     <div className="Team-CoreTeam-Cards">
 
-                        <TeamMember image="photo_low" name="Nitin" designation="Web Executive, Technical Music" />
+                        <TeamMember image="nitin_jayant" name="Nitin" designation="Web Executive, Technical Music" email="thenitinjayant@gmail.com" instagram="https://www.instagram.com/TheNitinJayant" facebook="https://www.facebook.com/TheNitinJayant" tel="tel: 9997180390"/>
                         <TeamMember image="photo_low" name="Nitin" designation="Web Executive" />
                         <TeamMember image="photo_low" name="Nitin" designation="Web Executive" />
                         <TeamMember image="photo_low" name="Nitin" designation="Web Executive" />
