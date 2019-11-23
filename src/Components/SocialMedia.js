@@ -10,19 +10,23 @@ class SocialMedia extends Component
             <div className="SocialMedia">
 
                 
-                <a className="SocialMedia-Icons-Links" href="https://www.gmail.com/">
+                <a className="SocialMedia-Icons-Links" href="mailto: aagaaz.bvcoe@gmail.com">
                     <i id="Email-Icon" class="SocialMedia-Icons fas fa-envelope fa-3x"></i>
                 </a>
 
-                <a className="SocialMedia-Icons-Links" href="https://www.facebook.com/">
+                <a className="SocialMedia-Icons-Links" href="https://www.youtube.com/channel/UCX7oRE0t9vdeDLJjdkP2_Fg">
+                    <i id="Youtube-Icon" class="SocialMedia-Icons fab fa-youtube fa-3x"></i>
+                </a>
+
+                <a className="SocialMedia-Icons-Links" href="https://www.facebook.com/aagaaz.bvcoe/">
                     <i id="Facebook-Icon" class="SocialMedia-Icons fa-icon fab fa-facebook-square fa-3x" ></i>
                 </a>
 
-                <a className="SocialMedia-Icons-Links" href="https://www.twitter.com">
+                {/* <a className="SocialMedia-Icons-Links" href="https://www.twitter.com">
                     <i id="Twitter-Icon" class="SocialMedia-Icons fa-icon fab fa-twitter-square fa-3x" ></i>
-                </a>
+                </a> */}
 
-                <a className="SocialMedia-Icons-Links" href="https://www.instagram.com/">
+                <a className="SocialMedia-Icons-Links" href="https://www.instagram.com/aagaaz.bvcoe">
                     <i id="Instagram-Icon" class="SocialMedia-Icons fa-icon fab fa-instagram fa-3x" ></i>
                 </a>
 

@@ -1,29 +1,33 @@
 import React, {Component} from 'react';
+import { withGoogleMap, withScriptjs, GoogleMap, Marker, InfoWindow } from 'react-google-maps';
 
 import './Map.css';
 
-class Map extends Component
-{
-    render() {
-        return(
-            <div className="Map">
-                
-                This is map
+function Map() {
 
-                {/* <iframe width="100%" height="100%" class="map" id="mapcanvas"
-                    src="https://maps.google.com/maps?q=new%20delhi&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
-                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-                    <div class="zxos8_gm"><a href="https://themesort.com/category/agency-themes">Agency templates at
-                        themesort</a></div>
-                        <div style="overflow: hidden;">
-                        <div id="gmap_canvas" style="height: 100%; width: 100%;"></div>
-                    </div>
-                    <div><small>Powered by <a href="https://www.embedgooglemap.co.uk">Embed Google Map</a></small></div>
-                </iframe> */}
-                
-            </div>
-        );
-    }
+    // let {latitude, longitude} = this.props;
+
+    return (
+      <GoogleMap
+        defaultZoom={10}
+        defaultCenter={{ lat: 28.675821 , lng: 77.113194 }} />
+    )
 }
+        
+  
+const MapWrapped = withScriptjs(withGoogleMap(Map));
+const API_KEY = 'AIzaSyB4sZDt2p9BU5En-4Osl1rFtvE-qlZ8kwI';
 
-export default Map;
+export default function App() {
+    return (
+        <div style={{ width: "50vw" }}>
+            <MapWrapped
+                googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${API_KEY
+                }`}
+                loadingElement={<div style={{ height: `100%` }} />}
+                containerElement={<div style={{ height: `100%` }} />}
+                mapElement={<div style={{ height: `100%` }} />}
+            />
+        </div>
+    );
+}

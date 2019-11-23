@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Mitr|Scada&display=swap');
+
+
 :root
 {
+    --team-member-font1: 'Scada', sans-serif;
+    --team-member-font2: 'Mitr', sans-serif;
+    --team-member-font3: 'Alegreya Sans SC', sans-serif;
+
+
     --card-background-color: #ebeef8;
     --card-border-color: rgba(0, 0, 0, 0.2);
 }
@@ -13,7 +21,7 @@
     align-content: center;
     align-items: center;
     text-align: center;
-    flex: 1;
+
 
     margin: 1rem;
 
@@ -24,6 +32,14 @@
     box-shadow: 0.5rem 0.5rem 1rem var(--card-border-color);
     /* box-shadow: 5px 5px 10px 1px var(--card-border-color); */
 
+    width: 17%;
+
+}
+
+.TeamMember img
+{
+    margin-top: 10px;
+    border-radius: 50%;
 }
 
 .TeamMember-BackgroundImage
@@ -38,6 +54,16 @@
     padding: 0.5rem;
 }
 
+.TeamMember h2
+{
+    font-family: var(--team-member-font1);
+}
+.TeamMember h3
+{
+    font-family: var(--team-member-font3);
+}
+
+
 .TeamMember-SocialMedia
 {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -51,3 +77,11 @@
     margin: 20px 10px 0 10px;
 }
 
+
+@media (max-width: 600px)
+{
+    .TeamMember
+    {
+        width: 80%;
+    }
+}

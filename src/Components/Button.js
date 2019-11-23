@@ -14,7 +14,7 @@ class Button extends Component
         return(
             <div className="Button">
                 
-                <a style={btnStyle} href={this.props.link} className="Button-Specific Button-General">
+                <a style={btnStyle} href={this.props.link} className="Button-Link Button-Specific Button-General">
                     {this.props.text}
                 </a>
 

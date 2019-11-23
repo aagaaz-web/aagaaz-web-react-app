@@ -4,6 +4,22 @@
     margin: 1rem;
 }
 
+.SocialMedia
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#Youtube-Icon
+{
+    color: #c4302b;
+}
+
 #Instagram-Icon
 {
     color: #dd2a7b;
@@ -33,7 +49,7 @@
 {
     .SocialMedia-Icons-Links
     {
-        padding: 1rem;
+        padding: 0.5rem;
         margin: 1rem;
     }
     

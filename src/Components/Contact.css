@@ -15,7 +15,7 @@
 }
 
 
-.Location, .Map
+.Location, .Map, .ContactInformation
 {
     flex: 1;
 }

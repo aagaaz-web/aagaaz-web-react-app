@@ -1,0 +1,44 @@
+#AboutImage-Main
+{
+    position: relative;;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+#AboutImage-Main img
+{
+    width: 50%;
+    padding: 1rem;
+
+    outline: 15px solid var(--secondary-color);
+    /* width: 55%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: z-index 0.5s ease-in-out; */
+    transition: all 0.5s ease-in-out;
+
+    box-shadow: 0.5rem 0.5rem 1rem var(--card-border-color);
+}
+
+.AboutImage:hover
+{
+    z-index: 999;
+}
+.AboutImage:hover img:not(:hover)
+{
+    transform: scale(0.8);
+}
+
+
+
+#AboutImage-Main img:hover
+{
+    z-index: 999;
+    transform: scale(2.5);
+    outline: 10px double var(--secondary-color);   
+}

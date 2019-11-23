@@ -9,9 +9,14 @@ class TeamMember extends Component
 {
     render() {
 
-        let imgSrc = 'https://cdn.pixabay.com/photo/2015/03/04/22/35/head-659652_960_720.png';
+        let imgSrc = this.props.image;
 
-        // console.log(imgSrc);
+
+        let facebook = `https://www.facebook.com/${this.props.facebook}`;
+        let instagram = `https://www.instagram.com/${this.props.instagram}`;
+        let phone = `tel: ${this.props.phone}`;
+        let email = `mailto: ${this.props.email}`;
+
 
         return(
 
@@ -27,19 +32,19 @@ class TeamMember extends Component
 
                 <div className="TeamMember-SocialMedia">
                     
-                    <a className="TeamMember-SocialMedia-Icons-Links" href={this.props.email}>
+                    <a className="TeamMember-SocialMedia-Icons-Links" href={email}>
                         <i id="Email-Icon" class="TeamMember-SocialMedia-Icons fas fa-envelope fa-2x"></i>
                     </a>
 
-                    <a className="TeamMember-SocialMedia-Icons-Links" href={this.props.facebook}>
+                    <a className="TeamMember-SocialMedia-Icons-Links" href={facebook}>
                         <i id="Facebook-Icon" class="TeamMember-SocialMedia-Icons fa-icon fab fa-facebook-square fa-2x" ></i>
                     </a>
 
-                    <a className="TeamMember-SocialMedia-Icons-Links" href={this.props.instagram}>
+                    <a className="TeamMember-SocialMedia-Icons-Links" href={instagram}>
                         <i id="Instagram-Icon" class="TeamMember-SocialMedia-Icons fa-icon fab fa-instagram fa-2x" ></i>
                     </a>
 
-                    <a className="TeamMember-SocialMedia-Icons-Links" href={this.props.tel}>
+                    <a className="TeamMember-SocialMedia-Icons-Links" href={phone}>
                         <i id="Telephone-Icon" class="TeamMember-SocialMedia-Icons fa-icon fa fa-phone fa-2x"></i>
                     </a>
 

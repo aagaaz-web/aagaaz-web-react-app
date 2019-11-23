@@ -1,0 +1,44 @@
+.About
+{
+    padding-top: 1rem;
+}
+
+.About-Container
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.About-Container-Content, .About-Container-Images
+{
+    flex: 1;
+}
+
+.About-Container-Content
+{
+    padding: 0 2rem 2rem 2rem;
+}
+
+.About-Container-Images
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+
+
+
+@media (max-width: 600px)
+{
+    .About-Container-Images
+    {
+        grid-template-columns: 100%;
+    }
+
+    .About-Container
+    {
+        flex-direction: column;
+    }
+}
