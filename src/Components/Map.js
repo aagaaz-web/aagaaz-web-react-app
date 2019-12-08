@@ -16,7 +16,7 @@ function Map() {
         
   
 const MapWrapped = withScriptjs(withGoogleMap(Map));
-const API_KEY = 'AIzaSyB4sZDt2p9BU5En-4Osl1rFtvE-qlZ8kwI';
+const API_KEY = '';
 
 export default function App() {
     return (

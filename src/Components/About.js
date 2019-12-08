@@ -47,9 +47,9 @@ class About extends Component
                     <div className="About-Container-Images">
 
                         <AboutImage image="https://res.cloudinary.com/aagaaz-bvcoe/image/upload/v1571152850/Showcase%20Photos/image1.jpg" />
-                        <AboutImage image="https://res.cloudinary.com/aagaaz-bvcoe/image/upload/v1571152850/Showcase%20Photos/image1.jpg" />
-                        <AboutImage image="https://res.cloudinary.com/aagaaz-bvcoe/image/upload/v1571152850/Showcase%20Photos/image1.jpg" />
-                        <AboutImage image="https://res.cloudinary.com/aagaaz-bvcoe/image/upload/v1571152850/Showcase%20Photos/image1.jpg" />
+                        <AboutImage image="https://res.cloudinary.com/aagaaz-bvcoe/image/upload/v1575794850/Showcase%20Photos/image2.jpg" />
+                        <AboutImage image="https://res.cloudinary.com/aagaaz-bvcoe/image/upload/v1575794851/Showcase%20Photos/image3.jpg" />
+                        <AboutImage image="https://res.cloudinary.com/aagaaz-bvcoe/image/upload/v1575794853/Showcase%20Photos/image4.jpg" />
 
                     </div>
 

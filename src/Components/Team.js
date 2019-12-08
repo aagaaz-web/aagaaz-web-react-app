@@ -24,6 +24,7 @@ const images = {
     Varun: 'https://res.cloudinary.com/aagaaz-bvcoe/image/upload/v1574513110/Executive%20Team%20Images/2019-2020/loeg4zwu2mpwrkg2ork9.png',
     Naman: 'https://res.cloudinary.com/aagaaz-bvcoe/image/upload/v1574513110/Executive%20Team%20Images/2019-2020/rvd2brnophsetwrvoq9j.png',
     Veeral: 'https://res.cloudinary.com/aagaaz-bvcoe/image/upload/v1574513111/Executive%20Team%20Images/2019-2020/hwxkg1idd1vx3vwhhejw.png',
+    Shreshth: 'https://res.cloudinary.com/aagaaz-bvcoe/image/upload/v1575794588/Executive%20Team%20Images/2019-2020/p5qjbojynz1hdzkpqr5s.jpg',
 }
 
 
@@ -80,7 +81,7 @@ class Team extends Component
                         <TeamMember image={images.Sahil} name="Sahil Ganguly"  designation="Social Media Executive" email="sahilshubhamganguly@gmail.com" phone="7042243169" instagram="sahhuehuel" facebook="sahil.ganguly.7"  />
                         <TeamMember image={images.Veeral} name="Veeral Sharma"  designation="Social Media Executive" email="veeralsharma0001@gmail.com" phone="9599402877" instagram="veeralsharma" facebook="veeral.sharma.0"  />
                         <TeamMember image={images.Naman} name="Naman Kaushik"  designation="Documentation Team" email="namankaushikplt@gmail.com" phone="8700369581" instagram="#" facebook="#" />
-                        <TeamMember image={QUESTION_MARK_IMAGE} name="SHRESHTH KHANDELWAL"  designation="Design Team Head" email="shreshthkhandelwal30@gmail.com" phone="8130660940" instagram="__shreshth3009/" facebook="shreshth.khandelwal.9" />
+                        <TeamMember image={Shreshth} name="SHRESHTH KHANDELWAL"  designation="Design Team Head" email="shreshthkhandelwal30@gmail.com" phone="8130660940" instagram="__shreshth3009/" facebook="shreshth.khandelwal.9" />
                         <TeamMember image={images.Prerna} name="Prerna Arya"  designation="Design Team, Sponsorship Team" email="aryaprerna23@gmail.com" phone="9354129489" instagram="aryaprerna23" facebook="#" />
                         {/* <TeamMember image={QUESTION_MARK_IMAGE} name="Ish Takkar"  designation="Documentation Team" email="ishtakkar21@gmail.com" phone="8800335270" instagram="ish.takkar" facebook="ish.takkar" /> */}
                         {/* <TeamMember image="photo_low" name="Tarun Sharma"  designation="Team Member" email="9873910132hello@gmail.com" phone="9873910132" instagram="tarun_sharma007ts" facebook="#" /> */}
