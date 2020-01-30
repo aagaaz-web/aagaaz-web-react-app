@@ -39,8 +39,8 @@ a
 .Navbar-Brand
 {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-content: center;
     align-items: center;
     text-align: center;
@@ -48,9 +48,20 @@ a
     font-family: var(--brand-font);
 }
 
+
 .Navbar-Brand a
 {
     color: var(--navbar-secondary-color);
+}
+
+.Navbar-Brand img
+{
+    width: 50%;
+}
+
+.Navbar-Brand-Image, .Navbar-Brand-Link
+{
+    flex: 1;
 }
 
 

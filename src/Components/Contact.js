@@ -22,7 +22,7 @@ class Contact extends Component
                     <div className="Contact-Address">
 
                         {/* <Map latitude="28.675821" longitude="77.113194" /> */}
-                        <ContactInformation email="AAGAAZ.BVCOE@gmail.com" phone="7289901886" phonename="Akash Kaushal" />
+                        <ContactInformation email="AAGAAZ.BVCOE@gmail.com" phone="9560507126" phonename="Sarthak Mishra" />
                         <Location />
 
                     </div>

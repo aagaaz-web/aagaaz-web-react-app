@@ -46,7 +46,7 @@ class Team extends Component
                     <div className="Team-Heads-Cards">
 
                         <TeamMember image={images.VanditaSharma} name="Vandita Sharma" designation="Society Mentor" phone="#" instagram="#" facebook="#" email="#" />
-                        <TeamMember image={images.AkashKaushal} name="Akash Kaushal" designation="Soceity Head" phone="7289901886" instagram="akash_kaushal453/" facebook="akashkaushal453/" email="akashkaushal544@gmail.com" />
+                        <TeamMember image={images.SarthakMishra} name="Sarthak Mishra"  designation="Society Head" email="sarthakkmishraa@gmail.com" phone="9560507126" instagram="jeevannmusic" facebook="#" />
 
                     </div>
 

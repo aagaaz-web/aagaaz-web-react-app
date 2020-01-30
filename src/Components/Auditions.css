@@ -1,0 +1,23 @@
+#Auditions-Main
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Auditions-Container
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.Auditions-Container-Content, .Auditions-Container-Image
+{
+    flex: 1;
+}
+
+.Auditions-Container-Content
+{
+    line-height: 1.5rem;
+}

@@ -31,8 +31,12 @@ class Navbar extends Component
 
                 <h2 className="Navbar-Brand">
                         
-                    <a href="#Cover-Main">AAGAAZ</a> 
-
+                    <div className="Navbar-Brand-Image">
+                        <a href="https://www.bvcoend.ac.in/"> <img src="https://res.cloudinary.com/aagaaz-bvcoe/image/upload/v1580408334/Assets/icon-bvcoe.png" /> </a>
+                    </div>
+                    <div className="Navbar-Brand-Link">
+                        <a href="#Cover-Main">AAGAAZ</a> 
+                    </div>
                 </h2>
 
                 <div className="Navbar-Links-Container">
@@ -40,7 +44,9 @@ class Navbar extends Component
 
                         <a  className="Navbar-Link" href="#Cover-Main"><li>Home</li></a>
                         <a  className="Navbar-Link" href="#About-Main"><li>About</li></a>
-                        <a  className="Navbar-Link" href="#Notice-Main"><li>Notice</li></a>
+                        <a  className="Navbar-Link" href="#Auditions-Main"><li>Auditions</li></a>
+                        <a  className="Navbar-Link" href="#Competitions-Main"><li>Competitions</li></a>
+                        {/* <a  className="Navbar-Link" href="#Notice-Main"><li>Notice</li></a> */}
                         <a  className="Navbar-Link" href="#Team-Main"><li>Team</li></a>
                         <a  className="Navbar-Link" href="#Contact-Main"><li>Contact</li></a>
                         
